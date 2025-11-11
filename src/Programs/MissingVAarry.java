@@ -13,15 +13,19 @@ public class MissingVAarry {
 		{
 			sum = sum+i[l];
 		}
-		System.out.println(sum);
 	
 	    for(int k=1; k<=i.length+1;k++)
 	    {
 	    	sum1 = sum1+k;
 	    }
 	
-	    System.out.println(sum1);
+	   
+	    
+	    int diff = sum1-sum;
+	    System.out.println(diff);
 	}
+	
+	
 	
 	
 	
