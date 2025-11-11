@@ -21,8 +21,8 @@ public class MissingVAarry {
 	
 	   
 	    
-	    int diff = sum1-sum;
-	    System.out.println(diff);
+	    int missingValue = sum1-sum;
+	    System.out.println(missingValue);
 	}
 	
 	
