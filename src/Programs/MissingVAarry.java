@@ -1,33 +1,33 @@
 package Programs;
 
-public class MissingVAarry {
-
-	public static void main(String[] arg) {
+public class MissingVAarry{
+	
+	public static void main(String[] args)
+	{
+		int num[] = {1,2,3,4,6};
 		
-		int i[] = {1,2,3,5};
-		
-		int sum = 0;
+		int sum= 0;
 		int sum1 = 0;
 		
-		for(int l = 0; l<i.length;l++ )
+		
+		for(int i=0; i<num.length; i++)
 		{
-			sum = sum+i[l];
+			sum = sum+num[i];
 		}
-	
-	    for(int k=1; k<=i.length+1;k++)
-	    {
-	    	sum1 = sum1+k;
-	    }
-	
-	   
-	    
-	    int missingValue = sum1-sum;
-	    System.out.println(missingValue);
+		
+		for(int k=0; k<=num.length;k++)
+		{
+			sum1 = sum+k;
+		}
+		
+		int miss = sum1-sum;
+		
+		System.out.println(miss);
+		
+		
+		
+		
 	}
-	
-	
-	
-	
 	
 	
 	
